@@ -27,14 +27,6 @@ img {
   display: block;
 }
 
-#hero {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    linear-gradient(to right, rgba(135, 206, 250, 0.5), rgba(255, 20, 147, 0.5)),
-    url('./assets/nav.png');
-  height: 20vh;
-  padding-top: 3rem;
-}
-
 #main-header {
   display: flex;
   justify-content: space-between;
@@ -89,15 +81,17 @@ nav ul a:hover {
   top: 100%;
   left: 0;
   background: linear-gradient(to bottom,
-      #3e0042,
-      /* Rich purple */
-      #6d2e91,
-      /* Medium purple */
-      #9b4f9b,
-      /* Light purple */
-      #f3c6e1
-      /* Soft violet */
+      #a0c4ff,
+      /* Light Blue */
+      #5fa8d3,
+      /* Soft Blue */
+      #48bfe3,
+      /* Sky Blue */
+      #caf0f8
+      /* Very Light Blue */
     );
+
+
   border-radius: .5rem;
   padding: .5rem;
   display: none;
